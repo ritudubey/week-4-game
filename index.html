@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- Added link to the jQuery Library -->
+	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/sandstone/bootstrap.min.css" rel="stylesheet" integrity="sha384-G3G7OsJCbOk1USkOY4RfeX1z27YaWrZ1YuaQ5tbuawed9IoreRDpWpTkZLXQfPm3" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Montserrat" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<!-- <div id="gamePage"> -->
+		<div class="container">
+			<header><h1>Crystals Collector !</h1></header>
+			<div class="row">
+				<div class="col-lg-6">
+				<p>You will be given a random number at start of game. There are 
+					four crystals. By clicking on a crystal you will add a specific amount of points to your total score. You win by matching your total score to the random number. 
+					Each time the game starts the value of each crystal changes.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Computer Pick:</h3>
+						</div>
+						<div class="panel-body">
+							<h1 id="randomNbr"></h1>
+						</div>
+					</div>    
+					<div id="score" class="col-lg-4">
+						<div><span id="message"></span></div>
+						<div>Wins :<span id="numWinsId"></span></div>
+						<div>Losses :<span id="numLossesId"></span></div>
+					</div>
+				</div>
+				<div class="row">
+					<div id="buttons"></div>
+				</div>
+				<div class="row">
+					
+					<div class="col-lg-4 panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Your total score is:</h3>
+						</div>
+						<div class="panel-body">
+							<h1 id="userScore"></h1>
+						</div>
+					</div>    
+
+
+				</div>
+				<footer>
+			&copy; Copyright 2016 Ritu Dubey
+		</footer>
+			</div>
+
+		<!-- </div> -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+	</body>
+	<style>
+	</style>
+	</html>

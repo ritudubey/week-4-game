@@ -1,0 +1,32 @@
+
+body{
+	background: url("../images/sunbackgrd.png");
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+}
+
+h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 30px;
+	font-weight: bold;
+}
+header{
+	padding: 10px 10px 10px 10px;
+}
+
+#score {
+	height: 100px;
+	width: 200px;
+	margin: 10px 10px 10px 10px;
+	padding: 20px 10px 10px 10px;
+}
+
+.panel {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+footer{
+text-align: center;
+font-size: 12px;
+}
